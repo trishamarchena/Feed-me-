@@ -21,7 +21,7 @@ https://wireframe.cc/5Tmd2h
 - Clear previous results upon secondary search
 
 
-##Timeframes
+## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
