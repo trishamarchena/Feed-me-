@@ -8,6 +8,20 @@
 
 https://data.cityofnewyork.us/resource/pitm-atqc.json
 
+```
+        "globalid": "{B80B082A-7C26-449A-81A0-D20FEF8C2597}",
+        "seating_interest_sidewalk": "both",
+        "restaurant_name": "Bar verde",
+        "legal_business_name": "A&D wine corp",
+        "doing_business_as_dba": "A&D wine corp",
+        "bulding_number": "65",
+        "street": "4th street",
+        "borough": "Manhattan",
+        "zip": "10003",
+        "business_address": "65 4th street , Manhattan, NY",
+        "approved_for_sidewalk_seating": "yes",
+        "approved_for_roadway_seating": "yes",
+        "qualify_alcohol": "yes",
 
 ## Wireframes
 https://wireframe.cc/5Tmd2h
