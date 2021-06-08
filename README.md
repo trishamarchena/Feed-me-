@@ -1,5 +1,5 @@
 ## Project name
- Feed-me-App
+ Feed me restaurant finder
 # Project Description
  
  This will allow a user to look up any restaurant in the FiveFive boroughs of New York, It will also allow them to see if they serve drinks.
@@ -13,7 +13,15 @@ https://data.cityofnewyork.us/resource/pitm-atqc.json
 https://wireframe.cc/5Tmd2h
 
 
+## MVP
+ Axios call on NPS API
+- Display results on page
+- Include images of the restaurants
+- Provides restaurant address 
+- Clear previous results upon secondary search
 
+
+##Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
