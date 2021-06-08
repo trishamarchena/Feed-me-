@@ -19,6 +19,20 @@ https://wireframe.cc/5Tmd2h
 - Include images of the restaurants
 - Provides restaurant address 
 
+## Goals
+
+| Day | Priority | Estimated Time | HTML| CSS | Axios | Debugging|
+| --- | :---: |  :---: | :---: | :---: | :---: | :---: |
+| Tuesday| H | 6hrs|   | X |  X |  |   |
+| Wednesday | H | 8hrs|   |  |  X |  |   |
+| Thursday | H | 3hrs|    |  |   |X  |   |
+| Friday| H | 3hrs|    |  |   | X |   |
+| Saturday | M | 3hrs|    |  X|   |  |   |
+| Sunday | M | 3hrs|   | X |  X |  |   |
+| Total | H | 30hrs|    |  |   |  |   |
+
+
+
 
 ## Priority Matrix
 
