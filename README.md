@@ -22,7 +22,7 @@ https://wireframe.cc/5Tmd2h
 ## Goals
 
 | Day | Priority | Estimated Time | HTML| CSS | Axios | Debugging|Javascript
-| --- | :---: |  :---: | :---: | :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: | :---: | :---: | :---: | :---: |
 | Tuesday| H | 6hrs|  X | X |   |  |   |
 | Wednesday | H | 8hrs|   |  X|  X |X  | x  |
 | Thursday | H | 7hrs|    |  |  X | x|  x |
