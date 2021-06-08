@@ -2,7 +2,7 @@
  Feed me restaurant finder
 # Project Description
  
- This will allow a user to look up any restaurant in the FiveFive boroughs of New York, It will also allow them to see if they serve drinks.
+ This will allow a user to look up any restaurant in the Five boroughs of New York, It will also allow them to see if they serve alcoholic beverages.
 
  ## API and Data Sample
 
@@ -18,8 +18,6 @@ https://wireframe.cc/5Tmd2h
 - Display results on page
 - Include images of the restaurants
 - Provides restaurant address 
-- Clear previous results upon secondary search
-
 
 
 ## Priority Matrix
