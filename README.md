@@ -22,7 +22,7 @@ https://data.cityofnewyork.us/resource/pitm-atqc.json
         "approved_for_sidewalk_seating": "yes",
         "approved_for_roadway_seating": "yes",
         "qualify_alcohol": "yes",
-
+```
 ## Wireframes
 https://wireframe.cc/5Tmd2h
 
