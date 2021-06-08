@@ -21,6 +21,12 @@ https://wireframe.cc/5Tmd2h
 - Clear previous results upon secondary search
 
 
+
+## Priority Matrix
+
+![Screen Shot 2021-06-08 at 09 37 08](https://user-images.githubusercontent.com/84581353/121195539-af078d00-c83d-11eb-901d-a73419d3a756.png)
+
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
