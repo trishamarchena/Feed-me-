@@ -26,13 +26,13 @@ https://wireframe.cc/5Tmd2h
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Initial HTML setup | H | 3hrs|   |  |
-| Axios set up | H | 6hrs|     |  |
-| Render results | H | 6hrs|      |  |
-| Other JS | H | 6hrs|     |  |
+| Axios set up | H | 3hrs|     |  |
+| Render results | H | 3hrs|      |  |
+| Other JS | H | 3hrs|     |  |
 | CSS for basic layout | M | 3hrs|     |  |
-| CSS for results | M | 5hrs|     |  |
+| CSS for results | M | 3hrs|     |  |
 | Image placement | M | 3hrs|     |  |
 | Media query | H | 3hrs|    |  |
-| General Research | H | 6hrs|     |  |
-| Debugging | H | 4hrs|     |  |
-| Total | H | 45hrs|    |  |
+| General Research | H | 3hrs|     |  |
+| Debugging | H | 3hrs|     |  |
+| Total | H | 30hrs|    |  |
