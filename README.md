@@ -37,6 +37,8 @@ https://wireframe.cc/oSCuDX
 ## Post MVP
 
 - going over the search button gives you a different color every time you hover over it
+- limit of a certain amount of restaurants on the page
+- load more option 
 
 
 ## Goals
