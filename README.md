@@ -30,9 +30,8 @@ https://wireframe.cc/oSCuDX
 
 ## MVP
  Axios call on NPS API
-- Display results on page
-- Include images of the restaurants
-- Provides restaurant address 
+- Display restaurant results on page
+- Provides restaurant address and if there's alcoholic beverages
 
 ## Post MVP
 

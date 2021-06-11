@@ -1,27 +1,46 @@
+let searchButton = document.querySelector('button');
+let inputBar = document.getElementById('search');
 //first get the data displayed in the console.
+
 const getRes= async () =>{
   let url = "https://data.cityofnewyork.us/resource/pitm-atqc.json"; //declare URL in variable
-    try{ const result = await axios.get(url);
-      console.log(result.data);
-      let resName= result.data.map(name=>{
+  try{const result = await axios.get(url);
+    console.log(result.data);
+    let resName= result.data.map(name=>{
         return name.restaurant_name
-      });
-      console.log(resName);
-        }catch (error) { console.error(error) 
-       }
-      
+     });
+     searchButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      resFilter(result.data);
+     })
+     console.log(resName);
+    }catch (error) { console.error(error) 
     }
-    getRes();
-//make an axios call and console log the result.
-
-//make a callback function that takes the data and attaches it to the DOM.
-// let searchButton = document.querySelector('button')
-
-// const renderRestaurants= (result) =>{
+    
+  }
+  getRes()
+  const renderRestaurants= (resName) =>{
+    const nextSet = resName.splice(15);
+    
+    resName.forEach(element =>{
+      let listDispl = document.querySelector('.mydisplay');
+      let resList = document.querySelector('.restaurants');
+      let resListItem = document.createElement("li");
+      resListItem.innerText = element.restaurant_name;
+      resList.appendChild(resListItem);
+      listDispl.appendChild(resList);
+    });
+  }
   
+  
+  const resFilter = (data)=>{
+   const filterResults = data.filter(restaurant => {
+    return restaurant.restaurant_name.toLowerCase().includes(inputBar.value)
 
+   })
+     renderRestaurants(filterResults);
+        }
 
-//select the button that searches for the different restaurants
 
 
 //this function gves my search button a different color when I hover over it.
