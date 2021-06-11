@@ -1,5 +1,7 @@
 let searchButton = document.querySelector('button');
 let inputBar = document.getElementById('search');
+let resList = document.querySelector('.restaurants');
+let locationList = document.querySelector('.location');
 //first get the data displayed in the console.
 
 const getRes= async () =>{
@@ -19,16 +21,37 @@ const getRes= async () =>{
     
   }
   getRes()
+
+  
+const clearResults = () =>{
+      while(resList.lastChild){
+        resList.removeChild(resList.lastChild)
+      }
+      while(locationList.lastChild){
+        locationList.removeChild(locationList.lastChild)
+      }
+
+
+}
+
+
+
+
+
+
+
   const renderRestaurants= (resName) =>{
     const nextSet = resName.splice(15);
-    
+    clearResults();
     resName.forEach(element =>{
       let listDispl = document.querySelector('.mydisplay');
-      let resList = document.querySelector('.restaurants');
       let resListItem = document.createElement("li");
       resListItem.innerText = element.restaurant_name;
       resList.appendChild(resListItem);
-      listDispl.appendChild(resList);
+      // listDispl.appendChild(resList);
+          let locListItem = document.createElement("li");
+          locListItem.innerText = element.business_address;
+          locationList.appendChild(locListItem);
     });
   }
   
@@ -38,7 +61,7 @@ const getRes= async () =>{
     return restaurant.restaurant_name.toLowerCase().includes(inputBar.value)
 
    })
-     renderRestaurants(filterResults);
+     renderRestaurants(filterResults)
         }
 
 
