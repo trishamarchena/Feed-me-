@@ -64,14 +64,14 @@ https://wireframe.cc/oSCuDX
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Initial HTML setup | H | 3hrs|   |  |
-| Axios set up | H | 3hrs|     |  |
-| Render results | H | 3hrs|      |  |
-| Other JS | H | 3hrs|     |  |
-| CSS for basic layout | M | 3hrs|     |  |
-| CSS for results | M | 3hrs|     |  |
-| Image placement | M | 3hrs|     |  |
-| Media query | H | 3hrs|    |  |
-| General Research | H | 3hrs|     |  |
-| Debugging | H | 3hrs|     |  |
-| Total | H | 30hrs|    |  |
+| Initial HTML setup | H | 3hrs|   |3hrs  |
+| Axios set up | H | 3hrs|    | 3hrs |
+| Render results | H | 3hrs|    | 6hrs |
+| Other JS | H | 3hrs|     | 4hrs |
+| CSS for basic layout | M | 3hrs|     | 4hrs |
+| CSS for results | M | 3hrs|     | 5hrs |
+| Image placement | M | 3hrs|     |  1hr|
+| Media query | H | 3hrs|    | 6hrs |
+| General Research | H | 3hrs|     |  5hrs|
+| Debugging | H | 3hrs|     | 2hrs |
+| Total | H | 30hrs|    | 39hrs  |

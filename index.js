@@ -2,6 +2,7 @@ let searchButton = document.querySelector('button');
 let inputBar = document.getElementById('search');
 let resList = document.querySelector('.restaurants');
 let locationList = document.querySelector('.location');
+let drinkList = document.querySelector('.drinks');
 //first get the data displayed in the console.
 
 const getRes= async () =>{
@@ -30,18 +31,15 @@ const clearResults = () =>{
       while(locationList.lastChild){
         locationList.removeChild(locationList.lastChild)
       }
-
-
+      while(drinkList.lastChild){
+        drinkList.removeChild(drinkList.lastChild)
+      
+      }
 }
 
 
-
-
-
-
-
   const renderRestaurants= (resName) =>{
-    const nextSet = resName.splice(15);
+    const nextSet = resName.splice(10);
     clearResults();
     resName.forEach(element =>{
       let listDispl = document.querySelector('.mydisplay');
@@ -52,6 +50,10 @@ const clearResults = () =>{
           let locListItem = document.createElement("li");
           locListItem.innerText = element.business_address;
           locationList.appendChild(locListItem);
+
+      let drinkListItem = document.createElement("li");
+      drinkListItem.innerText = element.qualify_alcohol;
+      drinkList.appendChild(drinkListItem);
     });
   }
   
