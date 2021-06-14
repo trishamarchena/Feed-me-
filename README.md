@@ -29,7 +29,7 @@ https://wireframe.cc/5Tmd2h
 https://wireframe.cc/oSCuDX
 
 ## MVP
- Axios call on NPS API
+- Axios call
 - Display restaurant results on page
 - Provides restaurant address and if there's alcoholic beverages
 
@@ -37,7 +37,7 @@ https://wireframe.cc/oSCuDX
 
 - going over the search button gives you a different color every time you hover over it
 - limit of a certain amount of restaurants on the page
-- load more option 
+
 
 
 ## Goals
